@@ -1,3 +1,47 @@
 body {
+  padding: 40px;
   font-family: sans-serif, arial;
+  text-align: center;
+}
+.movie-bar .form-inline {
+  border-radius: 1px;
+}
+.movie-bar input[type=text] {
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+.movie-bar .movieBtn {
+  margin: 5px;
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.search-bar .form-inline {
+  border-radius: 1px;
+  width: 25%;
+}
+.search-bar input[type=text] {
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+.search-bar .btn {
+  margin: 5px;
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.list  {
+  padding: 10px;
+  display: inline-block;
+}
+
+ul {
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+  white-space: nowrap;
 }

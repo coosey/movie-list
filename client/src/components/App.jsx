@@ -1,15 +1,16 @@
 import React from 'react';
-import MovieList from './MovieList.jsx';
+import AddMovieList from './AddMovieList.jsx';
+//import Search from './Search.jsx';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     return (
       <div>
-        <h1>MoviesList</h1>
-        <MovieList />
+        <div className="title">
+          <h1>Movie List</h1>  
+        </div>
+        <AddMovieList />
+        {/* <Search /> */}
       </div>
     )
   }
